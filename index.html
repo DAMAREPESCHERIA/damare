@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENU - DAMARE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      background-image: radial-gradient(circle at 30% 30%, rgba(0, 123, 193, 0.02), transparent 60%), 
+                        radial-gradient(circle at 70% 70%, rgba(0, 123, 193, 0.02), transparent 60%);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 16px;
+    }
+
+    .top-banner {
+      background-color: #d7c4b3;
+      height: 138px;
+      width: 100%;
+    }
+
+    .avatar-container {
+      display: flex;
+      justify-content: center;
+      margin-top: -60px;
+    }
+
+    .avatar {
+      width: 120px;
+      border: 14px solid white;
+      border-radius: 50%;
+      background-color: white;
+    }
+
+    h1 {
+      margin-top: 16px;
+      font-size: 28px;
+      color: #131D29;
+      font-weight: 700;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 700px;
+    }
+
+    .card {
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 4px 20px rgba(0, 31, 14, 0.08);
+      margin: 6px 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 25px rgba(0, 31, 14, 0.12);
+    }
+
+    .card a {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      text-align: center;
+      text-decoration: none;
+      color: #080807;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .social-box {
+      margin: 32px auto 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #131D29;
+      font-size: 18px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      background: white;
+      transition: background 0.3s ease;
+    }
+
+    .social-link:hover {
+      background-color: #f5f5f5;
+    }
+
+    .social-link img {
+      width: 30px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-banner"></div>
+  <main>
+    <div class="avatar-container">
+      <img src="https://oqg-primary-prod-content.s3.us-east-1.amazonaws.com/uploads/links/R0jWgr5KXOmtoeQknTSQt40TPK2SrNh3faF6lioh.jpg" alt="MENU" class="avatar">
+    </div>
+    <h1>MENU</h1>
+    <div class="container">
+      <div class="card">
+        <a href="https://drive.google.com/file/d/1-Zs9tl2qIuvYuRUyuHcmdJ4tcrzxDWK2/view?usp=sharing" target="_blank">APERITIVO</a>
+      </div>
+      <div class="card">
+        <a href="https://drive.google.com/file/d/161lpeuKQJ2m9yqhJY4tU6kJhgD7zy04u/view?usp=sharing" target="_blank">WINELIST</a>
+      </div>
+      <div class="card">
+        <a href="https://drive.google.com/file/d/1ItuTmM936p5hod2o20hakRKTp6CklEgd/view?usp=drive_link" target="_blank">COCKTAIL</a>
+      </div>
+      <div class="card">
+        <a href="https://drive.google.com/file/d/1QsI1CEIbjaN2c-qdBlVjyZ3XdHROcGWb/view?usp=sharing" target="_blank">AGGIUNTE DI CRUDO</a>
+      </div>
+      <div class="card">
+        <a href="https://drive.google.com/file/d/19vczjpELiUOICmsiVn4WAL5Oa4K-hAZ-/view?usp=sharing" target="_blank">ALLERGENI</a>
+      </div>
+    </div>
+  </main>
+  <div class="social-box">
+    <a class="social-link" href="https://www.instagram.com/damare_pescheria/" target="_blank">
+      <img src="https://online-qr-generator.com/themes/altum/assets/images/socialicon/icon20.svg" alt="Instagram">
+      @damare_pescheria
+    </a>
+  </div>
+</body>
+</html>
